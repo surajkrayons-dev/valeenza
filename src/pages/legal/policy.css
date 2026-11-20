@@ -1,0 +1,21 @@
+.policy-html :where(h1, h2, h3, h4, h5, h6) {
+  font-weight: 600;
+  /* API HTML includes inline margins that collapse the section spacing. */
+  margin-block: 2rem 0.75rem !important;
+  color: #111827;
+}
+
+.policy-html :where(h1, h2) { font-size: 1.5em; }
+.policy-html h3 { font-size: 1.25em; }
+.policy-html :where(h1, h2, h3, h4, h5, h6).text-lg {
+  margin-block-start: 1.25rem !important;
+}
+.policy-html p { margin-block: 0.5em; }
+.policy-html ul { list-style: disc; padding-left: 1.5em; }
+.policy-html ol { list-style: decimal; padding-left: 1.5em; }
+.policy-html :where(strong, b) { font-weight: 700; }
+.policy-html a { color: #0369a1; text-decoration: underline; }
+.policy-html table { border-collapse: collapse; width: 100%; margin-block: 1em; }
+.policy-html :where(th, td) { border: 1px solid #d1d5db; padding: 0.5em; }
+.policy-html th { font-weight: 600; text-align: left; }
+.policy-html img { max-width: 100%; height: auto; }
